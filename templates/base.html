@@ -29,7 +29,8 @@
                     </form>
                 </p>
                 {% else %}
-                <a class="username" href="{% url 'login' %}">Login</a>
+                <a class="username" href="{% url 'login' %}">Login</a> | 
+                <a class="username" href="{% url 'signup' %}">Sign Up</a>
                 {% endif %}
             </div>
         </header>
